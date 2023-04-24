@@ -2,8 +2,8 @@
  * @param {number[]} nums                         
  * @return {number}                              
  */
-var removeDuplicates = function (nums) {
 
+var removeDuplicates = function (nums) {
     const expectedNums = [].concat(nums);
     nums.splice(0, nums.length);
     for (let i = 0; i < expectedNums.length; i++) {
